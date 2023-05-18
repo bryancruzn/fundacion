@@ -15,6 +15,5 @@ export class ApiController {
     async apiAuth(@Body() recovery:AuthLoginDto, @Res() res:Response){
         const dataToken = await this.serviceApi.verifyAuth(recovery)
         return res.status(HttpStatus.OK).json({dataToken});
-        
     }
 }
