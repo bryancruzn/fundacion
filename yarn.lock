@@ -741,7 +741,7 @@
   resolved "https://registry.npmjs.org/@nestjs/mongoose/-/mongoose-9.2.2.tgz"
   integrity sha512-szNuSUCwwbQSSeiTh8+tZ9fHV4nuzHwBDROb0hX0s7crwY15TunCfwyKbB2XjqkEQWUAasDeCBuKOJSL9N6tTg==
 
-"@nestjs/platform-express@^9.0.0":
+"@nestjs/platform-express@^9.0.0", "@nestjs/platform-express@^9.4.1":
   version "9.4.1"
   resolved "https://registry.npmjs.org/@nestjs/platform-express/-/platform-express-9.4.1.tgz"
   integrity sha512-lz6GowtaU9pbycmvqDVDiLp0Vib78ama02dRg9QvvDgq61CLg4BSLAj+7duR2/LsWfQQ+4jqdQRzhlEKsM5Oiw==
@@ -1892,7 +1892,7 @@ core-util-is@~1.0.0:
   resolved "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz"
   integrity sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==
 
-cors@2.8.5:
+cors@^2.8.5, cors@2.8.5:
   version "2.8.5"
   resolved "https://registry.npmjs.org/cors/-/cors-2.8.5.tgz"
   integrity sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==
